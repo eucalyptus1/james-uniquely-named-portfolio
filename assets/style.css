@@ -25,7 +25,7 @@ header h1 {
 }
 
 header a {
-    text-decoration: none;
+    font-size: 25px;
     color: #403798;
 }
 
@@ -45,9 +45,6 @@ header nav ul li a {
 /* End Header Style*/
 
 /* Footer Style */
-footer {
-    padding: 20px 35px;
-}
 
 footer h1 {
     font-weight: bold;
@@ -57,20 +54,20 @@ footer h1 {
 }
 
 footer div {
+    display: flex;
+    justify-content: space-between;
     float: right;
     margin: 7px 0;
-    display: inline;
 }
 
 footer div ul li {
     display: inline;
     line-height: 3;
-    margin: 0 50px;
+    margin: 20px 50px;
 }
 
 footer div ul li a {
-    margin: 0 30px;
-    text-decoration: none;
+    margin: 0 50px 0 0 ;
     color: #403798;
 }
 
@@ -87,26 +84,26 @@ footer div ul li a {
 /* End Hero Style*/
 
 .section-title {
-    width: 410px;
+    font-size: 35px;
+    border-right: #403798 solid;
+    width: 250px;
     display: inline-block;
     vertical-align: top;
-    text-align: left;
+    text-align: center;
     margin: 30px 0 0 60px;
 }
 
 .section-content {
-    width: 410px;
+    width: 350px;
     display: inline-block;
-    vertical-align: top;
     text-align: right;
     margin: 30px 0 0 60px;
 }
 
 .article p {
     line-height: 1.5;
-    width: 80%;
-    margin: 20px 0;
+    width: 350px;
+    margin: 0;
     font-size: 30px;
     font-style: normal;
-    text-align: center;
 }
