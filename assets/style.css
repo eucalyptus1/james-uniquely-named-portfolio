@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
     color: #403798;
     background-color: #D6D6DA;
 }
+/* Header Style*/
 
 header {
     background-color: #1B1A25;
@@ -38,4 +40,73 @@ header nav ul li {
 
 header nav ul li a {
     margin: 0 30px;
+}
+
+/* End Header Style*/
+
+/* Footer Style */
+footer {
+    padding: 20px 35px;
+}
+
+footer h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #403798;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    margin: 7px 0;
+    display: inline;
+}
+
+footer div ul li {
+    display: inline;
+    line-height: 3;
+    margin: 0 50px;
+}
+
+footer div ul li a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #403798;
+}
+
+/* End Footer Style*/
+
+/*Hero Style*/
+.hero {
+    background-image: url("../assets/clouds.jpg");
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* End Hero Style*/
+
+.section-title {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+}
+
+.section-content {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin: 30px 0 0 60px;
+}
+
+.article p {
+    line-height: 1.5;
+    width: 80%;
+    margin: 20px 0;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
 }
