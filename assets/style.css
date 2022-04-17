@@ -9,6 +9,7 @@ body {
     color: #403798;
     background-color: #D6D6DA;
 }
+
 /* Header Style*/
 
 header {
@@ -193,6 +194,8 @@ header nav ul li a {
     height: 195px;
   }
 
+  /* end project section
+
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     header {
@@ -239,12 +242,6 @@ header nav ul li a {
       .project {
         flex: 0 70%;
       }
-
-      /* .project img {
-        flex: 0 32%;
-        height: auto;
-        width: 100%;
-      } */
   }
   
   
