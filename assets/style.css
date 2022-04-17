@@ -261,6 +261,10 @@ header nav ul li a {
       .main-project {
         flex: 0 100%;
       }
+
+      .small-projects {
+        margin: 0;
+      }
     
       .project {
         flex: 0 100%;
